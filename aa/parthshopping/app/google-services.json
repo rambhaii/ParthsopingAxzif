@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "520339027224",
+    "firebase_url": "https://smart-spark-237411.firebaseio.com",
+    "project_id": "smart-spark-237411",
+    "storage_bucket": "smart-spark-237411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520339027224:android:46e7330de87acabb",
+        "android_client_info": {
+          "package_name": "co.wl.googleplaceautocompletenewplacessdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520339027224-bba8c7kf69ig7p1jfoobu2ebs60tin0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqr3N7yRDDW5ulvcPUX_e6Ya1ae2ywTfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520339027224-bba8c7kf69ig7p1jfoobu2ebs60tin0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

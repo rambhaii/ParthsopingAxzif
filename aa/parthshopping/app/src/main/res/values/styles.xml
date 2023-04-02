@@ -1,0 +1,63 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomShapeAppearance">
+
+    <item name="neumorph_cornerSize">32dp</item>
+
+    <!-- Or if wants different radii depending on the corner. -->
+    <item name="neumorph_cornerSizeTopLeft">20dp</item>
+    <item name="neumorph_cornerSizeTopRight">20dp</item>
+    <item name="neumorph_cornerSizeBottomLeft">20dp</item>
+    <item name="neumorph_cornerSizeBottomRight">20dp</item>
+    </style>
+
+    <style name="CustomShapeAppearance1">
+
+        <item name="neumorph_cornerSize">3dp</item>
+
+        <!-- Or if wants different radii depending on the corner. -->
+        <item name="neumorph_cornerSizeTopLeft">2dp</item>
+        <item name="neumorph_cornerSizeTopRight">2dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">2dp</item>
+        <item name="neumorph_cornerSizeBottomRight">2dp</item>
+    </style>
+
+
+    <style name="CustomShapeAppearanceSquare">
+    <item name="neumorph_cornerSize">5dp</item>
+    </style>
+    <style name="productShapeAppearance">
+
+        <item name="neumorph_cornerSize">5dp</item>
+
+        <!-- Or if wants different radii depending on the corner. -->
+        <item name="neumorph_cornerSizeTopLeft">5dp</item>
+        <item name="neumorph_cornerSizeTopRight">5dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">5dp</item>
+        <item name="neumorph_cornerSizeBottomRight">5dp</item>
+    </style>
+
+    <style name="SliderStyle" parent="@style/Widget.MaterialComponents.Slider">
+        <item name="labelStyle">@style/TooltipStyle</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Slider</item>
+    </style>
+
+    <style name="TooltipStyle" parent="Widget.MaterialComponents.Tooltip">
+        <!-- background color of the Tooltip -->
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.Slider" parent="">
+        <!-- color used by the text in the Tooltip -->
+        <item name="colorOnPrimary">@color/colorPrimary</item>
+        <item name="colorOnBackground">@color/colorPrimary</item>
+        <item name="colorSurface">@color/colorPrimary</item>
+    </style>
+</resources>

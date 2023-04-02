@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Multi Language</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="russian">Россия</string>
+    <string name="french">Français</string>
+    <string name="arabic">العربية</string>
+    <string name="lorem_ipsum">¿Qué es Lorem Ipsum? Lorem Ipsum es simplemente un texto de relleno de la industria de impresión y tipografía. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde la década de 1500, cuando una impresora desconocida tomó una galera de tipos y la mezcló para hacer un libro de muestras tipo. Ha sobrevivido no solo cinco siglos, sino también el salto a la tipografía electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contenían pasajes de Lorem Ipsum, y más recientemente con un software de edición de escritorio como Aldus PageMaker, que incluye versiones de Lorem Ipsum.</string>
+    <string name="action_settings">Ajustes</string>
+</resources>

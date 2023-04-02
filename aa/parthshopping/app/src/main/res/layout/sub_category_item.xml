@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#CECBCB"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/idCardView"
+        card_view:cardElevation="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_1sdp"
+        card_view:cardCornerRadius="@dimen/_1sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/main"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/image"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/li"
+                    android:padding="@dimen/_3sdp"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageview"
+                        android:visibility="invisible"
+                        android:padding="2dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/active_dot"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:id="@+id/name"
+                        android:drawableLeft="@drawable/non_active_dot"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:drawableTint="@color/catgcol"
+                        android:text="Grocery &amp; Staples"
+                        android:gravity="left"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/sabcol"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"/>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:id="@+id/downlayout"
+                    android:scaleType="fitXY"
+                    android:layout_alignRight="@+id/li"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/_10sdp"
+                    android:tint="#797878"
+                    android:src="@drawable/ic_plus_sign"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/detaillayout"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:scrollbars="vertical"
+                    android:layout_below="@+id/soft"
+                    android:id="@+id/recyclerView"
+                    tools:context="example.javatpoint.com.recyclerviewlist.MainActivity"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

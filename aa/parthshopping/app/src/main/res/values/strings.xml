@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AXZIF</string>
+
+    <string name="google_place_key">AIzaSyCkpn7jAbY-rccPDgEYuexKCBO1GPVqBTU</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="network_error_title">Network Error!</string>
+    <string name="err_msg_mobile">Cannot be empty</string>
+    <string name="successful_title">Successful.</string>
+    <string name="attention_error_title">Attention</string>
+    <string name="network_error_message">Please check your network connection and try again.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_order_tracking">OrderTrackingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Multi Language</string>
+    <string name="action_settings">настройки</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="russian">Россия</string>
+    <string name="french">Français</string>
+    <string name="arabic">العربية</string>
+    <string name="lorem_ipsum">Что такое Lorem Ipsum? Lorem Ipsum - просто фиктивный текст в полиграфии и вёрстке. Лорем Ипсум был стандартным манекенщиком в отрасли с 1500-х годов, когда неизвестный принтер взял набор шрифтов и скремблировал его, чтобы сделать книгу типовых образцов. Он пережил не только пять веков, но и скачок в электронном наборе текста, оставаясь практически неизменным. Он был популяризирован в 1960-х годах с выпуском листов Letraset, содержащих отрывки Lorem Ipsum, и совсем недавно - с программным обеспечением для настольных издательских систем, таким как Aldus PageMaker, включая версии Lorem Ipsum.</string>
+</resources>

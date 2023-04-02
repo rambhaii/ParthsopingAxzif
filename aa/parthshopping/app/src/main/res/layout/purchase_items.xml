@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <!-- <com.jsibbold.zoomage.ZoomageView
+         android:id="@+id/fullImage"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:zoomage_restrictBounds="false"
+         app:zoomage_animateOnReset="true"
+         app:zoomage_autoResetMode="UNDER"
+         app:zoomage_autoCenter="true"
+         app:zoomage_zoomable="true"
+         app:zoomage_translatable="true"
+         app:zoomage_minScale="0.2"
+         app:zoomage_maxScale="8"
+         />-->
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#000"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true" />
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        app:tint="@color/black" />
+</RelativeLayout>

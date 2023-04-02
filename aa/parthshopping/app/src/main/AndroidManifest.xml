@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.axzif" >
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".OrderTracking.OrderTrackingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_order_tracking"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddLocation.AddAddressActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.app.axzif.Dashboard.ui.ViewAllOfferTypeProduct"
+            android:exported="false" />
+        <activity android:name="com.app.axzif.Filter.FilterActivity" />
+        <activity android:name="com.app.axzif.Address.ui.OrderAllViewActivity" />
+        <activity android:name="com.app.axzif.Address.ui.OrderSummaryActivity" />
+        <activity android:name="com.app.axzif.Category.ui.SubCategoryHomeActivity" />
+        <activity android:name="com.app.axzif.Address.ui.BillingDetailsActivity" />
+        <activity android:name="com.app.axzif.Address.ui.BillingDetailsEditActivity" />
+        <activity android:name="com.app.axzif.Dashboard.ui.ProductListActivity" />
+        <activity android:name="com.app.axzif.Splash.ui.SelectAccountActivity" />
+        <activity
+            android:name="com.app.axzif.Search.ui.SearchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.app.axzif.Dashboard.ui.ProfileDetail" />
+        <activity android:name="com.app.axzif.Dashboard.ui.WebViewActivity" />
+        <activity android:name="com.app.axzif.Dashboard.ui.SupportActivity" />
+        <activity
+            android:name="com.app.axzif.Payment.ui.PaymentActivity"
+            android:parentActivityName="com.app.axzif.Address.ui.OrderSummaryActivity" />
+        <activity android:name="com.app.axzif.CardView.ui.CartActivity" />
+        <activity android:name="com.app.axzif.Order.ui.OrderActivity" />
+        <activity android:name="com.app.axzif.Order.ui.OrderDetailActivity" />
+        <activity android:name="com.app.axzif.Dashboard.dto.Item_Detail_Product" />
+        <activity
+            android:name="com.app.axzif.Register.ui.RegisteredActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.app.axzif.CardView.ui.WishListActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.app.axzif.Products.ui.ProductcartsubActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.app.axzif.Login.ui.SocialLoginActivity" />
+        <activity
+            android:name="com.app.axzif.Login.ui.LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.app.axzif.MapsActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.app.axzif.Splash.ui.Splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.axzif.Splash.ui.SplashSlider" />
+        <activity android:name="com.app.axzif.MyMapPlacesApiActivityType2" />
+        <activity
+            android:name="com.app.axzif.Dashboard.ui.DashboardMain"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

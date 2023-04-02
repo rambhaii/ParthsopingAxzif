@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_rec"
+
+    tools:context=".CardView.ui.CartActivity">
+    <include layout="@layout/toolbarold"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/checkoutlayout"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="6dp"
+        android:padding="@dimen/_5sdp"
+        android:scrollbars="vertical"
+      />
+
+
+</RelativeLayout>

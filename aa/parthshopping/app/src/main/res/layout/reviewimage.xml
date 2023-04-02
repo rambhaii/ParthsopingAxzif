@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_100sdp">
+    <soup.neumorphism.NeumorphCardView
+
+        android:id="@+id/idCardView"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_inset="8dp"
+        app:neumorph_insetBottom="8dp"
+        app:neumorph_insetEnd="8dp"
+        app:neumorph_insetStart="8dp"
+        app:neumorph_insetTop="8dp"
+        app:neumorph_shadowColorDark="#07646363"
+        app:neumorph_shadowColorLight="#0C646363"
+        app:neumorph_shadowElevation="3dp"
+        app:neumorph_shapeAppearance="@style/productShapeAppearance"
+        app:neumorph_strokeColor="#0C888787"
+        app:neumorph_strokeWidth="0.5sp">
+        <ImageView
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/cart_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_supermarket"
+            />
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+

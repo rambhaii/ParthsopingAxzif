@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neowidget"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_inset="10dp"
+        app:neumorph_insetBottom="10dp"
+        app:neumorph_insetEnd="10dp"
+        app:neumorph_insetStart="10dp"
+        app:neumorph_insetTop="10dp"
+        app:neumorph_shadowColorDark="#1B646363"
+        app:neumorph_shadowColorLight="#0C646363"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeAppearance="@style/CustomShapeAppearanceSquare"
+        app:neumorph_strokeColor="#0C888787"
+        app:neumorph_strokeWidth="0.5sp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/li_main"
+
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:text="Grocery &amp; Staples"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14ssp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_alignParentStart="true"
+                    />
+                <ImageView
+                   android:layout_alignParentRight="true"
+                    android:id="@+id/arrow"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:src="@drawable/arrow_right"
+                    card_view:tint="@color/black" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_subItem"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </soup.neumorphism.NeumorphCardView>
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="125sp"
+    android:gravity="center"
+     android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageView1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/imageView1"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="8sp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/userName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:layout_below="@+id/userName"
+            android:text="8585858585"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/nameber" />
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:layout_below="@+id/nameber"
+            android:text="xyz@gmail.com"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/email" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                 android:layout_marginRight="@dimen/_20sdp"
+                android:textSize="12sp"
+                android:background="@drawable/rect"
+                android:backgroundTint="@color/red"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:text="Login"
+                android:layout_marginTop="5sp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/rect"
+                android:backgroundTint="@color/green"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:text="Sign Up"
+                android:layout_marginTop="5sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/tv_signup" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

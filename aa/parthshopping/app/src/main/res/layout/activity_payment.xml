@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment.ui.PaymentActivity">
+
+
+    <include layout="@layout/toolbarold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Select a payment method"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/rectmsg"
+        android:backgroundTint="#F5F0F0"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Flat 50 back with upi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+         android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cashondelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Cash On Delivery"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/paymentgateway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:text="Payment Gateway"
+            android:textAllCaps="true" />
+
+
+
+
+    </RadioGroup>
+
+    <TextView
+
+        android:id="@+id/continuebt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

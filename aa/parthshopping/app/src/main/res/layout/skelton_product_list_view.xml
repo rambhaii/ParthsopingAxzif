@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:gravity="center"
+
+   >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/skelton_circular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="horizontal"
+            >
+            <View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/skelton_circular"
+                /><View
+                android:layout_width="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/skelton_circular"
+                /><View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/skelton_circular"
+                /><View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/skelton_circular"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/light_transparent"
+        android:layout_height="@dimen/_160sdp">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="#F3F3F3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@color/light_transparent"
+           android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:text=" FEATURED PRODUCTS"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_5sdp"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@color/light_transparent"
+            android:text="View All "
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp"
+
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+         android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/skelton_border"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:background="#dfdfdf"
+                />
+
+            <View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/light_transparent"
+                />
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:text="Google正式发布Android8.0" />
+
+            <View
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="14dp"
+                android:background="@color/light_transparent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+                app:layout_constraintTop_toTopOf="@+id/img_news"
+                app:layout_constraintBottom_toBottomOf="@+id/img_news"/>
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                android:text="Google正式发布Android8.0" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:background="@drawable/skelton_border"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:background="#dfdfdf"
+                />
+
+            <View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/light_transparent"
+                />
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:text="Google正式发布Android8.0" />
+
+            <View
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="14dp"
+                android:background="@color/light_transparent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+                app:layout_constraintTop_toTopOf="@+id/img_news"
+                app:layout_constraintBottom_toBottomOf="@+id/img_news"/>
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                android:text="Google正式发布Android8.0" />
+
+        </LinearLayout>
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="#F3F3F3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/featureProduct"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@color/light_transparent"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:text=" FEATURED PRODUCTS"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/feature_view_all"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_5sdp"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@color/light_transparent"
+            android:text="View All "
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp"
+
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/skelton_border"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:background="#dfdfdf"
+                />
+
+            <View
+                android:id="@+id/img_news"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/light_transparent"
+                />
+
+            <View
+                android:id="@+id/tv_title"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+
+                android:background="@color/light_transparent"
+
+
+                android:text="Google正式发布Android8.0" />
+
+            <View
+                android:id="@+id/tv_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="14dp"
+                android:background="@color/light_transparent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+                app:layout_constraintTop_toTopOf="@+id/img_news"
+                app:layout_constraintBottom_toBottomOf="@+id/img_news"/>
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                android:text="Google正式发布Android8.0" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:background="@drawable/skelton_border"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:background="#dfdfdf"
+                />
+
+            <View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/light_transparent"
+                />
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+
+                android:background="@color/light_transparent"
+
+
+                android:text="Google正式发布Android8.0" />
+
+            <View
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="14dp"
+                android:background="@color/light_transparent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+                app:layout_constraintTop_toTopOf="@+id/img_news"
+                app:layout_constraintBottom_toBottomOf="@+id/img_news"/>
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                android:text="Google正式发布Android8.0" />
+
+        </LinearLayout>
+    </LinearLayout><RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="#F3F3F3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@color/light_transparent"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:text=" FEATURED PRODUCTS"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_5sdp"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@color/light_transparent"
+            android:text="View All "
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp"
+
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:background="@drawable/skelton_border"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:background="#dfdfdf"
+                />
+
+            <View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/light_transparent"
+                />
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+
+                android:background="@color/light_transparent"
+
+
+                android:text="Google正式发布Android8.0" />
+
+            <View
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="14dp"
+                android:background="@color/light_transparent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+                app:layout_constraintTop_toTopOf="@+id/img_news"
+                app:layout_constraintBottom_toBottomOf="@+id/img_news"/>
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                android:text="Google正式发布Android8.0" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:background="@drawable/skelton_border"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:background="#dfdfdf"
+                />
+
+            <View
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/light_transparent"
+                />
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+
+                android:background="@color/light_transparent"
+
+
+                android:text="Google正式发布Android8.0" />
+
+            <View
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="14dp"
+                android:background="@color/light_transparent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+                app:layout_constraintTop_toTopOf="@+id/img_news"
+                app:layout_constraintBottom_toBottomOf="@+id/img_news"/>
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="16dp"
+                android:background="@color/light_transparent"
+                android:layout_marginTop="@dimen/_8sdp"
+
+                android:text="Google正式发布Android8.0" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

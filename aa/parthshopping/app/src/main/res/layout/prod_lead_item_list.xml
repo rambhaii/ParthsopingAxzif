@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#CECBCB"
+    android:padding="@dimen/_2sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/idCardView"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_1sdp"
+        card_view:cardCornerRadius="@dimen/_1sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="fitXY"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/handwash"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Description"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text="Bradford Fabric Single Seater Recliner in Brown Colour by HomeTown"
+                        android:textSize="12sp"
+                        android:fontFamily="serif"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs . 38.52"
+                        android:textSize="14sp"
+                        android:layout_above="@+id/finalamount"
+                        android:fontFamily="serif"
+                        android:textColor="#727070"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:id="@+id/finalamount"
+                        android:layout_alignParentBottom="true"
+                        android:text="Rs . 45000"
+                        android:textSize="16sp"
+                        android:fontFamily="serif"
+                        android:textColor="@color/yallow"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"/>
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_24sdp"
+                        android:visibility="gone"
+                        android:layout_height="@dimen/_24sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textSize="13sp"
+                        android:src="@drawable/ic_heart"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="@color/green"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"/>
+
+
+                </LinearLayout>
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:text="Add to Cart"
+                     android:drawableTint="#EB900A"
+                     android:drawablePadding="@dimen/_10sdp"
+                     android:gravity="center"
+                     android:padding="3dp"
+                     android:drawableLeft="@drawable/ic_onle_shop"
+                     android:textSize="14sp"
+                     android:fontFamily="serif"
+                     android:textColor="#EB900A"
+                     android:layout_gravity="center"
+                     android:layout_marginLeft="5dp"/>-->
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Details"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:drawableLeft="@drawable/notification"
+                    android:drawableTint="@color/black"
+                    android:textSize="14sp"
+                    android:fontFamily="serif"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Delivered by 26th Fab"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="13sp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/green"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="28dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/_24sdp"
+                        android:layout_height="@dimen/_24sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textSize="13sp"
+                        android:src="@drawable/ic_trash"
+                        android:tint="@color/black"
+                        android:textColor="@color/green"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_22sdp"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_minus_btn"
+                            android:tint="@color/green"
+                            android:padding="@dimen/_7sdp"
+                            />
+
+                        <TextView
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:background="@drawable/rectnew"
+                            android:layout_margin="@dimen/_2sdp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/black"
+                            />
+
+                        <ImageView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_7sdp"
+                            android:tint="@color/green"
+                            android:src="@drawable/ic_plus_sign"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

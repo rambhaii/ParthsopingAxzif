@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Multi Language</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="russian">Россия</string>
+    <string name="french">Français</string>
+    <string name="arabic">العربية</string>
+    <string name="lorem_ipsum">"ما هو أبجد هوز؟ أبجد هوز هو مجرد دمية النص لصناعة الطباعة والتنضيد. كان Lorem Ipsum هو النص الوهمي القياسي في هذه الصناعة منذ القرن الخامس عشر الميلادي ، عندما أخذت طابعة غير معروفة لوحًا من نوعه وتدافعت عليه لصنع كتاب نموذج للعينات. لقد نجا ليس فقط خمسة قرون ، ولكن أيضا قفزة في التنضيد الإلكتروني ، تبقى دون تغيير أساسي. لقد تم نشره في الستينيات من القرن الماضي من خلال إصدار أوراق Letraset التي تحتوي على مقاطع Lorem Ipsum ، ومؤخراً مع برامج النشر المكتبي مثل Aldus PageMaker بما في ذلك إصدارات Lorem Ipsum. "</string>
+</resources>
